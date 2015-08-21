@@ -7,7 +7,7 @@ library(shiny)
 library(rCharts)
 
 shinyUI(
-    navbarPage("Storm Database Explorer",
+    navbarPage("Storm App",
         tabPanel("Plot",
                 sidebarPanel(
                     sliderInput("range", 
